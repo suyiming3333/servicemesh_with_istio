@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: msistio
+  labels:
+    ##默认为msistio空间所有应用注入istio (sidecar模式)
+    istio-injection: enabled

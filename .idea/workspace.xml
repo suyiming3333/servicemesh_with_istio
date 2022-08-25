@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5716fa3b-a24c-4ad2-a489-aceaece76f8e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2DpRmQvRHxVfhO2mn4gLE15dmUE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/msistio-istio-manifests" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.corn.bservice" />
+      <recent name="com.corn.bservice.controller" />
+      <recent name="com.corn.aservice.controller" />
+      <recent name="com.corn.aservice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\gitCode\servicemesh_with_istio\msistio-istio-manifests" />
+      <recent name="D:\work\gitCode\servicemesh_with_istio\msistio-kubernetes-manifests" />
+      <recent name="D:\work\gitCode\servicemesh_with_istio\b-service" />
+      <recent name="D:\work\gitCode\servicemesh_with_istio\a-service" />
+      <recent name="D:\work\gitCode\servicemesh_with_istio\b-service\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AserviceApplication">
+    <configuration name="AserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="a-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corn.aservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.corn.aservice.AserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="b-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corn.bservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.corn.bservice.BserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AserviceApplication" />
+        <item itemvalue="Spring Boot.BserviceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5716fa3b-a24c-4ad2-a489-aceaece76f8e" name="Default Changelist" comment="" />
+      <created>1661394198038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661394198038</updated>
+      <workItem from="1661394201772" duration="12309000" />
+      <workItem from="1661430510773" duration="1121000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1237" height="367" key="GridCell.Tab.0.bottom" timestamp="1661422980239">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="367" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1661422980239" />
+    <state width="1237" height="367" key="GridCell.Tab.0.center" timestamp="1661422980239">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="367" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1661422980239" />
+    <state width="1237" height="367" key="GridCell.Tab.0.left" timestamp="1661422980239">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="367" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1661422980239" />
+    <state width="1237" height="367" key="GridCell.Tab.0.right" timestamp="1661422980239">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="367" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1661422980239" />
+    <state width="1237" height="367" key="GridCell.Tab.1.bottom" timestamp="1661422980053">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="367" key="GridCell.Tab.1.bottom/0.0.1280.770@0.0.1280.770" timestamp="1661422980053" />
+    <state width="1237" height="367" key="GridCell.Tab.1.center" timestamp="1661422980053">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="367" key="GridCell.Tab.1.center/0.0.1280.770@0.0.1280.770" timestamp="1661422980053" />
+    <state width="1237" height="367" key="GridCell.Tab.1.left" timestamp="1661422980053">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="367" key="GridCell.Tab.1.left/0.0.1280.770@0.0.1280.770" timestamp="1661422980053" />
+    <state width="1237" height="367" key="GridCell.Tab.1.right" timestamp="1661422980053">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="367" key="GridCell.Tab.1.right/0.0.1280.770@0.0.1280.770" timestamp="1661422980053" />
+    <state width="1237" height="367" key="GridCell.Tab.2.bottom" timestamp="1661422980053">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="367" key="GridCell.Tab.2.bottom/0.0.1280.770@0.0.1280.770" timestamp="1661422980053" />
+    <state width="1237" height="367" key="GridCell.Tab.2.center" timestamp="1661422980053">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="367" key="GridCell.Tab.2.center/0.0.1280.770@0.0.1280.770" timestamp="1661422980053" />
+    <state width="1237" height="367" key="GridCell.Tab.2.left" timestamp="1661422980053">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="367" key="GridCell.Tab.2.left/0.0.1280.770@0.0.1280.770" timestamp="1661422980053" />
+    <state width="1237" height="367" key="GridCell.Tab.2.right" timestamp="1661422980053">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state width="1237" height="367" key="GridCell.Tab.2.right/0.0.1280.770@0.0.1280.770" timestamp="1661422980053" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1661396371262">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.770@0.0.1280.770" timestamp="1661396371262" />
+    <state x="336" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1661430577822">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="336" y="214" key="com.intellij.ide.util.TipDialog/0.0.1280.770@0.0.1280.770" timestamp="1661430577822" />
+    <state x="6" y="90" key="new project wizard" timestamp="1661395701169">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="6" y="90" key="new project wizard/0.0.1280.770@0.0.1280.770" timestamp="1661395701169" />
+  </component>
+</project>

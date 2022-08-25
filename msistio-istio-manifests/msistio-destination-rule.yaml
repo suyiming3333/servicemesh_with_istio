@@ -1,0 +1,17 @@
+##声明路由规则(然后才能配置gateway)
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: a-service
+  namespace: msistio
+spec:
+  host: a-service
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: b-service
+  namespace: msistio
+spec:
+  host: b-service
+---

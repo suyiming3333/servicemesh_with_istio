@@ -1,0 +1,52 @@
+##网关配置，管理统一的出入口流量
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: msistio-gateway
+  namespace: msistio
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+    - port:
+        number: 8080
+        name: http
+        protocol: HTTP
+      hosts:
+        - "*"
+---
+##网关绑定虚拟服务
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: msistio-service
+  namespace: msistio
+spec:
+  hosts:
+    - "*"
+  ##msistio-gateway,且满足match条件的，路由到对应的规则
+  gateways:
+    - msistio-gateway
+  http:
+    - match:
+        - uri:
+            ##满足/msistio/a开头的，按照改规则路由
+            prefix: /msistio/a
+      ##rewrite:例如访问http://192.168.16.141:30645/msistio/b/invoke，会改写成a-service/invoke
+      rewrite:
+        uri: /
+      route:
+        - destination:
+            host: a-service
+            port:
+              number: 8080
+    - match:
+        - uri:
+            prefix: /msistio/b
+      rewrite:
+        uri: /
+      route:
+        - destination:
+            host: b-service
+            port:
+              number: 8080

@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: a-service
+  namespace: msistio
+  labels:
+    app: a-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: a-service
+  template:
+    metadata:
+      labels:
+        app: a-service
+    spec:
+      serviceAccountName: msistio-admin
+      containers:
+        - name: a-service
+          image: corn/istio-a-service:1.0.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+      restartPolicy: Always

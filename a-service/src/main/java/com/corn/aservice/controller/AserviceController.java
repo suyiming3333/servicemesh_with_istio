@@ -1,5 +1,7 @@
 package com.corn.aservice.controller;
 
+import com.corn.aservice.feign.BserviceFeignClient;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,11 +20,14 @@ import java.util.List;
 @RestController
 public class AserviceController {
 
+    @Autowired
+    private BserviceFeignClient bserviceFeignClient;
+
 
     @GetMapping("/invokeb")
     public String invokeb(){
         System.out.println("a invoke b");
-        return "a invoke b";
+        return bserviceFeignClient.invokeB();
     }
 
     @Value("${javahome}")

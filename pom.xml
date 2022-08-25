@@ -39,6 +39,16 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-actuator</artifactId>
     </dependency>
+    <dependency>
+      <groupId>io.github.openfeign</groupId>
+      <artifactId>feign-httpclient</artifactId>
+      <version>10.9</version>
+    </dependency>
+    <dependency>
+      <groupId>com.netflix.feign</groupId>
+      <artifactId>feign-jackson</artifactId>
+      <version>8.18.0</version>
+    </dependency>
   </dependencies>
 
   <build>

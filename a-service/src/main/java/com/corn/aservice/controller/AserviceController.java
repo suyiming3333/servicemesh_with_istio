@@ -23,6 +23,16 @@ public class AserviceController {
     @Autowired
     private BserviceFeignClient bserviceFeignClient;
 
+    @Value("${service-b}")
+    private String serviceUrl;
+
+
+    @GetMapping("/urlConfig")
+    public String serviceUrl(){
+        System.out.println("urlConfig");
+        return serviceUrl;
+    }
+
 
     @GetMapping("/invokeb")
     public String invokeb(){

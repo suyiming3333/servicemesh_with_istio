@@ -22,4 +22,16 @@ spec:
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
+          ##指定镜像挂在文件的路径
+          volumeMounts:
+            - name: a-svc-config
+              ##镜像运行制定配置文件的路径要一致
+              mountPath: config
+      volumes:
+        - name: a-svc-config
+          configMap:
+            name: a-service
+            items:
+              - key: application.yml
+                path: application.yml
       restartPolicy: Always

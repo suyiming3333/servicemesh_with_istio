@@ -5,6 +5,7 @@ metadata:
   namespace: msistio
   labels:
     app: b-service
+    service: b-service
 spec:
   selector:
     app: b-service

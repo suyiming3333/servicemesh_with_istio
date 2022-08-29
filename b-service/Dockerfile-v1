@@ -8,9 +8,9 @@ ENV SPRING_OUTPUT_ANSI_ENABLED=ALWAYS \
     PROFILES="default"
 WORKDIR /opt/
 #ADD /target/*.jar /gateway.jar
-ADD ./*.jar /istio-b-service.jar
+ADD ./*v1.jar /istio-b-service.jar
 
 ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar /istio-b-service.jar --spring.profiles.active=$PROFILES"]
 
 EXPOSE $PORT
-####docker build -f Dockerfile -t corn/istio-b-service:1.0.0 .
+####docker build -f Dockerfile-v1 -t corn/istio-b-service-v1:1.0.0 .

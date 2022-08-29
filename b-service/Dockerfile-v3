@@ -1,0 +1,16 @@
+FROM openjdk:8-jre
+
+MAINTAINER corn
+
+ENV SPRING_OUTPUT_ANSI_ENABLED=ALWAYS \
+    JAVA_OPTS="" \
+    PORT=8002 \
+    PROFILES="default"
+WORKDIR /opt/
+#ADD /target/*.jar /gateway.jar
+ADD ./*v3.jar /istio-b-service.jar
+
+ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar /istio-b-service.jar --spring.profiles.active=$PROFILES"]
+
+EXPOSE $PORT
+####docker build -f Dockerfile-v3 -t corn/istio-b-service-v3:1.0.0 .

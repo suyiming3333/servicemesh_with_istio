@@ -20,7 +20,7 @@ public class BserviceController {
 
     @GetMapping("/invoke")
     public String invoke(HttpServletRequest request, HttpServletResponse response){
-        System.out.println("invoke b service");
-        return "invoke b svc finish";
+        System.out.println("invoke b service v3");
+        return "invoke b svc finish version 3";
     }
 }

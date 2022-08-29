@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5716fa3b-a24c-4ad2-a489-aceaece76f8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/a-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msistio-kubernetes-manifests/a-service-configmap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msistio-kubernetes-manifests/a-service-configmap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msistio-kubernetes-manifests/a-svc-deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msistio-kubernetes-manifests/a-svc-deployment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/b-service/Dockerfile-v1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b-service/src/main/java/com/corn/bservice/controller/BserviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/b-service/src/main/java/com/corn/bservice/controller/BserviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msistio-istio-manifests/msistio-destination-rule.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/msistio-istio-manifests/msistio-destination-rule.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msistio-kubernetes-manifests/b-svc-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msistio-kubernetes-manifests/b-svc-service.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/a-service/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/b-service" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -55,11 +56,11 @@
       <recent name="com.corn.aservice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\gitCode\servicemesh_with_istio\a-service\src\main\resources" />
-      <recent name="D:\work\gitCode\servicemesh_with_istio\a-service\src\main\java\com\corn\aservice\feign" />
+      <recent name="D:\work\gitCode\servicemesh_with_istio\b-service" />
       <recent name="D:\work\gitCode\servicemesh_with_istio\msistio-istio-manifests" />
       <recent name="D:\work\gitCode\servicemesh_with_istio\msistio-kubernetes-manifests" />
-      <recent name="D:\work\gitCode\servicemesh_with_istio\b-service" />
+      <recent name="D:\work\gitCode\servicemesh_with_istio\a-service\src\main\resources" />
+      <recent name="D:\work\gitCode\servicemesh_with_istio\a-service\src\main\java\com\corn\aservice\feign" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AserviceApplication">
@@ -109,7 +110,7 @@
       <workItem from="1661394201772" duration="12309000" />
       <workItem from="1661430510773" duration="7020000" />
       <workItem from="1661476938363" duration="10327000" />
-      <workItem from="1661737939668" duration="614000" />
+      <workItem from="1661737939668" duration="4528000" />
     </task>
     <servers />
   </component>
@@ -117,6 +118,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="371" y="195" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1661743501394">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="371" y="195" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.770@0.0.1280.770" timestamp="1661743501394" />
     <state width="1237" height="31" key="GridCell.Tab.0.bottom" timestamp="1661489357957">
       <screen x="0" y="0" width="1280" height="770" />
     </state>

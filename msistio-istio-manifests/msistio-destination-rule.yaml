@@ -6,12 +6,12 @@ metadata:
   namespace: msistio
 spec:
   host: a-service
----
-apiVersion: networking.istio.io/v1alpha3
-kind: DestinationRule
-metadata:
-  name: b-service
-  namespace: msistio
-spec:
-  host: b-service
----
+#---
+#apiVersion: networking.istio.io/v1alpha3
+#kind: DestinationRule
+#metadata:
+#  name: b-service
+#  namespace: msistio
+#spec:
+#  host: b-service
+#---

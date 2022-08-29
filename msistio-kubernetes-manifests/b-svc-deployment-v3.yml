@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: b-service-v3
+  namespace: msistio
+  labels:
+    app: b-service
+    version: v3
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: b-service
+      version: v3
+  template:
+    metadata:
+      labels:
+        app: b-service
+        version: v3
+    spec:
+      serviceAccountName: msistio-admin
+      containers:
+        - name: a-service
+          image: corn/istio-b-service-v3:1.0.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+      restartPolicy: Always

@@ -19,8 +19,9 @@ public class BserviceController {
 
 
     @GetMapping("/invoke")
-    public String invoke(HttpServletRequest request, HttpServletResponse response){
+    public String invoke(HttpServletRequest request, HttpServletResponse response) throws InterruptedException {
         System.out.println("invoke b service v3");
+        Thread.sleep(8000L);
         return "invoke b svc finish version 3";
     }
 }

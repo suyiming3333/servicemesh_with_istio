@@ -4,13 +4,7 @@
     <list default="true" id="5716fa3b-a24c-4ad2-a489-aceaece76f8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/a-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-service/src/main/java/com/corn/aservice/controller/AserviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/a-service/src/main/java/com/corn/aservice/controller/AserviceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-service/target/a-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/a-service/target/a-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-service/target/a-service-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/a-service/target/a-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-service/target/classes/com/corn/aservice/controller/AserviceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/a-service/target/classes/com/corn/aservice/controller/AserviceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b-service/target/b-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/b-service/target/b-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b-service/target/b-service-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/b-service/target/b-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msistio-kubernetes-manifests/a-service-configmap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msistio-kubernetes-manifests/a-service-configmap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msistio-kubernetes-manifests/a-svc-deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msistio-kubernetes-manifests/a-svc-deployment.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +108,8 @@
       <updated>1661394198038</updated>
       <workItem from="1661394201772" duration="12309000" />
       <workItem from="1661430510773" duration="7020000" />
-      <workItem from="1661476938363" duration="7872000" />
+      <workItem from="1661476938363" duration="10327000" />
+      <workItem from="1661737939668" duration="614000" />
     </task>
     <servers />
   </component>

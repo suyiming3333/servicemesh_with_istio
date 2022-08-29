@@ -4,5 +4,5 @@ metadata:
   name: a-service
   namespace: msistio
 data:
-  application.yml: |-
+  myconfig.yml: |-
     service-b: http://b-service:8003

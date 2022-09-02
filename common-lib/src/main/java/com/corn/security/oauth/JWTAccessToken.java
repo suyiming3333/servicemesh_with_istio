@@ -30,15 +30,15 @@ import java.util.Map;
  * @author icyfenix@gmail.com
  * @date 2020/3/9 9:46
  */
-@Component
+//@Component
 public class JWTAccessToken extends JwtAccessTokenConverter {
 
     // 签名私钥
     // 此处内容是我随便写的UUID，按照JWT约定默认是256Bit的，其实任何格式都可以，只是要注意保密，不要公开出去
     private static final String JWT_TOKEN_SIGNING_PRIVATE_KEY = "601304E0-8AD4-40B0-BD51-0B432DC47461";
 
-    @Autowired
-    JWTAccessToken(UserDetailsService userDetailsService) {
+    //@Autowired
+    public JWTAccessToken(UserDetailsService userDetailsService) {
         // 设置签名私钥
         setSigningKey(JWT_TOKEN_SIGNING_PRIVATE_KEY);
         // 设置从资源请求中带上来的JWT令牌转换回安全上下文中的用户信息的查询服务

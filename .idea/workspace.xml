@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5716fa3b-a24c-4ad2-a489-aceaece76f8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/a-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-service/src/main/java/com/corn/aservice/controller/AserviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/a-service/src/main/java/com/corn/aservice/controller/AserviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/test-classes/META-INF/auth-service.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/corn/security/oauth/JWTAccessToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/src/main/java/com/corn/security/oauth/JWTAccessToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/corn/security/oauth/JWTAccessToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/classes/com/corn/security/oauth/JWTAccessToken.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,28 +47,31 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/auth-service/src/main/java/com/corn/auth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/a-service/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\gitCode\servicemesh_with_istio\auth-service\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.corn.security.oauth" />
+      <recent name="com.corn.auth.provider" />
       <recent name="com.corn.auth.controller" />
       <recent name="com.corn.security.config" />
       <recent name="com.corn.auth" />
-      <recent name="com.corn.bservice" />
-      <recent name="com.corn.bservice.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\gitCode\servicemesh_with_istio\a-service\src\main\resources" />
+      <recent name="D:\work\gitCode\servicemesh_with_istio\auth-service\src\main\resources" />
       <recent name="D:\work\gitCode\servicemesh_with_istio\auth-service\src\main\java\com\corn\auth" />
       <recent name="D:\work\gitCode\servicemesh_with_istio\common-lib\src\main\java\com\corn" />
       <recent name="D:\work\gitCode\servicemesh_with_istio\msistio-istio-manifests" />
-      <recent name="D:\work\gitCode\servicemesh_with_istio\b-service" />
-      <recent name="D:\work\gitCode\servicemesh_with_istio\msistio-kubernetes-manifests" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AserviceApplication">
@@ -124,7 +134,7 @@
       <workItem from="1661909295360" duration="1928000" />
       <workItem from="1661999962726" duration="2858000" />
       <workItem from="1662022887054" duration="801000" />
-      <workItem from="1662080555948" duration="1282000" />
+      <workItem from="1662080555948" duration="5733000" />
     </task>
     <servers />
   </component>
@@ -132,62 +142,62 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="47" key="#Project_Structure" timestamp="1662016416774">
+    <state x="233" y="47" key="#Project_Structure" timestamp="1662102954387">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="233" y="47" key="#Project_Structure/0.0.1280.770@0.0.1280.770" timestamp="1662016416774" />
-    <state x="371" y="195" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1661743501394">
+    <state x="233" y="47" key="#Project_Structure/0.0.1280.770@0.0.1280.770" timestamp="1662102954387" />
+    <state x="371" y="195" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1662083549127">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="371" y="195" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.770@0.0.1280.770" timestamp="1661743501394" />
-    <state width="1237" height="333" key="GridCell.Tab.0.bottom" timestamp="1662081875882">
+    <state x="371" y="195" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.770@0.0.1280.770" timestamp="1662083549127" />
+    <state width="1237" height="399" key="GridCell.Tab.0.bottom" timestamp="1662103234335">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="333" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1662081875882" />
-    <state width="1237" height="333" key="GridCell.Tab.0.center" timestamp="1662081875882">
+    <state width="1237" height="399" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1662103234335" />
+    <state width="1237" height="399" key="GridCell.Tab.0.center" timestamp="1662103234335">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="333" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1662081875882" />
-    <state width="1237" height="333" key="GridCell.Tab.0.left" timestamp="1662081875881">
+    <state width="1237" height="399" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1662103234335" />
+    <state width="1237" height="399" key="GridCell.Tab.0.left" timestamp="1662103234335">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="333" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1662081875881" />
-    <state width="1237" height="333" key="GridCell.Tab.0.right" timestamp="1662081875882">
+    <state width="1237" height="399" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1662103234335" />
+    <state width="1237" height="399" key="GridCell.Tab.0.right" timestamp="1662103234335">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="333" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1662081875882" />
-    <state width="1237" height="333" key="GridCell.Tab.1.bottom" timestamp="1662081875693">
+    <state width="1237" height="399" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1662103234335" />
+    <state width="1237" height="399" key="GridCell.Tab.1.bottom" timestamp="1662103224668">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="333" key="GridCell.Tab.1.bottom/0.0.1280.770@0.0.1280.770" timestamp="1662081875693" />
-    <state width="1237" height="333" key="GridCell.Tab.1.center" timestamp="1662081875693">
+    <state width="1237" height="399" key="GridCell.Tab.1.bottom/0.0.1280.770@0.0.1280.770" timestamp="1662103224668" />
+    <state width="1237" height="399" key="GridCell.Tab.1.center" timestamp="1662103224668">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="333" key="GridCell.Tab.1.center/0.0.1280.770@0.0.1280.770" timestamp="1662081875693" />
-    <state width="1237" height="333" key="GridCell.Tab.1.left" timestamp="1662081875693">
+    <state width="1237" height="399" key="GridCell.Tab.1.center/0.0.1280.770@0.0.1280.770" timestamp="1662103224668" />
+    <state width="1237" height="399" key="GridCell.Tab.1.left" timestamp="1662103224668">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="333" key="GridCell.Tab.1.left/0.0.1280.770@0.0.1280.770" timestamp="1662081875693" />
-    <state width="1237" height="333" key="GridCell.Tab.1.right" timestamp="1662081875693">
+    <state width="1237" height="399" key="GridCell.Tab.1.left/0.0.1280.770@0.0.1280.770" timestamp="1662103224668" />
+    <state width="1237" height="399" key="GridCell.Tab.1.right" timestamp="1662103224668">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="333" key="GridCell.Tab.1.right/0.0.1280.770@0.0.1280.770" timestamp="1662081875693" />
-    <state width="1237" height="333" key="GridCell.Tab.2.bottom" timestamp="1662081875694">
+    <state width="1237" height="399" key="GridCell.Tab.1.right/0.0.1280.770@0.0.1280.770" timestamp="1662103224668" />
+    <state width="1237" height="111" key="GridCell.Tab.2.bottom" timestamp="1662103178336">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="333" key="GridCell.Tab.2.bottom/0.0.1280.770@0.0.1280.770" timestamp="1662081875694" />
-    <state width="1237" height="333" key="GridCell.Tab.2.center" timestamp="1662081875693">
+    <state width="1237" height="111" key="GridCell.Tab.2.bottom/0.0.1280.770@0.0.1280.770" timestamp="1662103178336" />
+    <state width="1237" height="111" key="GridCell.Tab.2.center" timestamp="1662103178336">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="333" key="GridCell.Tab.2.center/0.0.1280.770@0.0.1280.770" timestamp="1662081875693" />
-    <state width="1237" height="333" key="GridCell.Tab.2.left" timestamp="1662081875693">
+    <state width="1237" height="111" key="GridCell.Tab.2.center/0.0.1280.770@0.0.1280.770" timestamp="1662103178336" />
+    <state width="1237" height="111" key="GridCell.Tab.2.left" timestamp="1662103178336">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="333" key="GridCell.Tab.2.left/0.0.1280.770@0.0.1280.770" timestamp="1662081875693" />
-    <state width="1237" height="333" key="GridCell.Tab.2.right" timestamp="1662081875693">
+    <state width="1237" height="111" key="GridCell.Tab.2.left/0.0.1280.770@0.0.1280.770" timestamp="1662103178336" />
+    <state width="1237" height="111" key="GridCell.Tab.2.right" timestamp="1662103178336">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="333" key="GridCell.Tab.2.right/0.0.1280.770@0.0.1280.770" timestamp="1662081875693" />
+    <state width="1237" height="111" key="GridCell.Tab.2.right/0.0.1280.770@0.0.1280.770" timestamp="1662103178336" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1661478720766">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
@@ -204,5 +214,16 @@
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="6" y="90" key="new project wizard/0.0.1280.770@0.0.1280.770" timestamp="1662014899612" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/a-service/src/main/java/com/corn/aservice/controller/AserviceController.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

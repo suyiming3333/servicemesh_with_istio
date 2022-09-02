@@ -6,15 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="b-service" />
         <module name="a-service" />
+        <module name="common-lib" />
+        <module name="auth-service" />
+        <module name="b-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="a-service" options="-parameters" />
+      <module name="auth-service" options="-parameters" />
       <module name="b-service" options="-parameters" />
+      <module name="common-lib" options="-parameters" />
       <module name="servicemesh_with_istio" options="-parameters" />
     </option>
   </component>

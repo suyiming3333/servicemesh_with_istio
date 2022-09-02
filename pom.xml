@@ -11,6 +11,8 @@
   <modules>
     <module>a-service</module>
     <module>b-service</module>
+    <module>auth-service</module>
+    <module>common-lib</module>
   </modules>
 
   <name>servicemesh_with_istio</name>

@@ -1,0 +1,7 @@
+D:\work\gitCode\servicemesh_with_istio\auth-service\src\main\java\com\corn\auth\config\AuthenticationServerConfiguration.java
+D:\work\gitCode\servicemesh_with_istio\auth-service\src\main\java\com\corn\auth\config\AuthorizationServerConfiguration.java
+D:\work\gitCode\servicemesh_with_istio\auth-service\src\main\java\com\corn\auth\controller\TestController.java
+D:\work\gitCode\servicemesh_with_istio\auth-service\src\main\java\com\corn\auth\provider\UsernamePasswordAuthenticationProvider.java
+D:\work\gitCode\servicemesh_with_istio\auth-service\src\main\java\com\corn\auth\AuthApplication.java
+D:\work\gitCode\servicemesh_with_istio\auth-service\src\main\java\com\corn\auth\provider\PreAuthenticatedAuthenticationProvider.java
+D:\work\gitCode\servicemesh_with_istio\auth-service\src\main\java\com\corn\auth\provider\RSA256JWTAccessToken.java

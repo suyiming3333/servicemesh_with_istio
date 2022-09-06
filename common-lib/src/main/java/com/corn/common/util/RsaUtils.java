@@ -1,5 +1,8 @@
 package com.corn.common.util;
 
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -7,10 +10,13 @@ import java.security.KeyFactory;
 import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
 import java.security.PublicKey;
+import java.security.interfaces.RSAPublicKey;
 import java.security.spec.InvalidKeySpecException;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 import java.util.Base64;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author suyiming3333
@@ -70,4 +76,34 @@ public class RsaUtils {
         return Files.readAllBytes(new File(filename).toPath());
     }
 
+
+    /**
+     * 通过publicKey 生成jwk
+     * @param publicKey
+     * @return
+     */
+    private static Map<String, Object> generateJWK(PublicKey publicKey){
+
+        RSAPublicKey rsa = (RSAPublicKey) publicKey;
+
+        Map<String, Object> values = new HashMap<>();
+
+        values.put("kty", rsa.getAlgorithm()); // getAlgorithm() returns kty not algorithm
+        values.put("kid", "msistio-jwt-kid");
+        values.put("n", Base64.getUrlEncoder().encodeToString(rsa.getModulus().toByteArray()));
+        values.put("e", Base64.getUrlEncoder().encodeToString(rsa.getPublicExponent().toByteArray()));
+        values.put("alg", "RS256");
+        values.put("use", "sig");
+
+        return values;
+    }
+
+    public static void main(String[] args) throws NoSuchAlgorithmException, InvalidKeySpecException {
+        String publickey = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCUTRLDiPisaWf+oVWygm+T7g6AxhfrzWnsUVqLYrYbDDwza2CKfhxRk0O/B1A0EACJlbhGdeF0//TX+f0GmSAvMNEx2yAZy8sMRnLjDxpmY19FO0cj3Ie8UN6wIpKq6dWBXpkPv2+EE1OQviJfGbs+rkgy9DpTcs/mcEmXIOsmhwIDAQAB";
+        byte[] decoded = Base64.getDecoder().decode(publickey);
+        RSAPublicKey pubKey = (RSAPublicKey) KeyFactory.getInstance("RSA").
+                generatePublic(new X509EncodedKeySpec(decoded));
+        generateJWK(pubKey);
+        System.out.println(1);
+    }
 }

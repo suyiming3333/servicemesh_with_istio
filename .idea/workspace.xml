@@ -3,10 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="5716fa3b-a24c-4ad2-a489-aceaece76f8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/a-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-service/src/main/java/com/corn/aservice/AserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/a-service/src/main/java/com/corn/aservice/AserviceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a-service/src/main/java/com/corn/aservice/controller/AserviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/a-service/src/main/java/com/corn/aservice/controller/AserviceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth-service/target/test-classes/META-INF/auth-service.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/a-service/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/AuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/AuthApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/config/AuthenticationServerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/config/AuthenticationServerConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/config/AuthorizationServerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/config/AuthorizationServerConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/provider/PreAuthenticatedAuthenticationProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/provider/PreAuthenticatedAuthenticationProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/provider/RSA256JWTAccessToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/provider/RSA256JWTAccessToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/provider/UsernamePasswordAuthenticationProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/corn/auth/provider/UsernamePasswordAuthenticationProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/b-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/corn/common/util/RsaUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/src/main/java/com/corn/common/util/RsaUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/corn/security/oauth/JWTAccessToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/src/main/java/com/corn/security/oauth/JWTAccessToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/src/main/java/com/corn/security/oauth/JWTAccessTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/src/main/java/com/corn/security/oauth/JWTAccessTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/META-INF/common-lib.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/corn/common/util/RsaUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/classes/com/corn/common/util/RsaUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/corn/security/oauth/JWTAccessToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/classes/com/corn/security/oauth/JWTAccessToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-lib/target/classes/com/corn/security/oauth/JWTAccessTokenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-lib/target/classes/com/corn/security/oauth/JWTAccessTokenService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/a-service/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/msistio-istio-manifests" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -67,14 +83,27 @@
       <recent name="com.corn.auth" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\gitCode\servicemesh_with_istio\msistio-istio-manifests" />
       <recent name="D:\work\gitCode\servicemesh_with_istio\a-service\src\main\resources" />
       <recent name="D:\work\gitCode\servicemesh_with_istio\auth-service\src\main\resources" />
       <recent name="D:\work\gitCode\servicemesh_with_istio\auth-service\src\main\java\com\corn\auth" />
       <recent name="D:\work\gitCode\servicemesh_with_istio\common-lib\src\main\java\com\corn" />
-      <recent name="D:\work\gitCode\servicemesh_with_istio\msistio-istio-manifests" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AserviceApplication">
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
+    <configuration name="RsaUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corn.common.util.RsaUtils" />
+      <module name="common-lib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corn.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="a-service" />
       <extension name="coverage">
@@ -111,6 +140,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.AserviceApplication" />
+        <item itemvalue="Application.RsaUtils" />
         <item itemvalue="Spring Boot.BserviceApplication" />
       </list>
     </recent_temporary>
@@ -134,7 +164,10 @@
       <workItem from="1661909295360" duration="1928000" />
       <workItem from="1661999962726" duration="2858000" />
       <workItem from="1662022887054" duration="801000" />
-      <workItem from="1662080555948" duration="5733000" />
+      <workItem from="1662080555948" duration="10307000" />
+      <workItem from="1662342364913" duration="14281000" />
+      <workItem from="1662386771894" duration="2468000" />
+      <workItem from="1662428297295" duration="3521000" />
     </task>
     <servers />
   </component>
@@ -142,86 +175,105 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="47" key="#Project_Structure" timestamp="1662102954387">
+    <state x="233" y="47" key="#Project_Structure" timestamp="1662363227521">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="233" y="47" key="#Project_Structure/0.0.1280.770@0.0.1280.770" timestamp="1662102954387" />
+    <state x="233" y="47" key="#Project_Structure/0.0.1280.770@0.0.1280.770" timestamp="1662363227521" />
     <state x="371" y="195" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1662083549127">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="371" y="195" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.770@0.0.1280.770" timestamp="1662083549127" />
-    <state width="1237" height="399" key="GridCell.Tab.0.bottom" timestamp="1662103234335">
+    <state width="1237" height="399" key="GridCell.Tab.0.bottom" timestamp="1662432508669">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="399" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1662103234335" />
-    <state width="1237" height="399" key="GridCell.Tab.0.center" timestamp="1662103234335">
+    <state width="1237" height="399" key="GridCell.Tab.0.bottom/0.0.1280.770@0.0.1280.770" timestamp="1662432508669" />
+    <state width="1237" height="399" key="GridCell.Tab.0.center" timestamp="1662432508668">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="399" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1662103234335" />
-    <state width="1237" height="399" key="GridCell.Tab.0.left" timestamp="1662103234335">
+    <state width="1237" height="399" key="GridCell.Tab.0.center/0.0.1280.770@0.0.1280.770" timestamp="1662432508668" />
+    <state width="1237" height="399" key="GridCell.Tab.0.left" timestamp="1662432508668">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="399" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1662103234335" />
-    <state width="1237" height="399" key="GridCell.Tab.0.right" timestamp="1662103234335">
+    <state width="1237" height="399" key="GridCell.Tab.0.left/0.0.1280.770@0.0.1280.770" timestamp="1662432508668" />
+    <state width="1237" height="399" key="GridCell.Tab.0.right" timestamp="1662432508669">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="399" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1662103234335" />
-    <state width="1237" height="399" key="GridCell.Tab.1.bottom" timestamp="1662103224668">
+    <state width="1237" height="399" key="GridCell.Tab.0.right/0.0.1280.770@0.0.1280.770" timestamp="1662432508669" />
+    <state width="1237" height="399" key="GridCell.Tab.1.bottom" timestamp="1662432508461">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="399" key="GridCell.Tab.1.bottom/0.0.1280.770@0.0.1280.770" timestamp="1662103224668" />
-    <state width="1237" height="399" key="GridCell.Tab.1.center" timestamp="1662103224668">
+    <state width="1237" height="399" key="GridCell.Tab.1.bottom/0.0.1280.770@0.0.1280.770" timestamp="1662432508461" />
+    <state width="1237" height="399" key="GridCell.Tab.1.center" timestamp="1662432508461">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="399" key="GridCell.Tab.1.center/0.0.1280.770@0.0.1280.770" timestamp="1662103224668" />
-    <state width="1237" height="399" key="GridCell.Tab.1.left" timestamp="1662103224668">
+    <state width="1237" height="399" key="GridCell.Tab.1.center/0.0.1280.770@0.0.1280.770" timestamp="1662432508461" />
+    <state width="1237" height="399" key="GridCell.Tab.1.left" timestamp="1662432508461">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="399" key="GridCell.Tab.1.left/0.0.1280.770@0.0.1280.770" timestamp="1662103224668" />
-    <state width="1237" height="399" key="GridCell.Tab.1.right" timestamp="1662103224668">
+    <state width="1237" height="399" key="GridCell.Tab.1.left/0.0.1280.770@0.0.1280.770" timestamp="1662432508461" />
+    <state width="1237" height="399" key="GridCell.Tab.1.right" timestamp="1662432508461">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="399" key="GridCell.Tab.1.right/0.0.1280.770@0.0.1280.770" timestamp="1662103224668" />
-    <state width="1237" height="111" key="GridCell.Tab.2.bottom" timestamp="1662103178336">
+    <state width="1237" height="399" key="GridCell.Tab.1.right/0.0.1280.770@0.0.1280.770" timestamp="1662432508461" />
+    <state width="1237" height="399" key="GridCell.Tab.2.bottom" timestamp="1662432508462">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="111" key="GridCell.Tab.2.bottom/0.0.1280.770@0.0.1280.770" timestamp="1662103178336" />
-    <state width="1237" height="111" key="GridCell.Tab.2.center" timestamp="1662103178336">
+    <state width="1237" height="399" key="GridCell.Tab.2.bottom/0.0.1280.770@0.0.1280.770" timestamp="1662432508462" />
+    <state width="1237" height="399" key="GridCell.Tab.2.center" timestamp="1662432508462">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="111" key="GridCell.Tab.2.center/0.0.1280.770@0.0.1280.770" timestamp="1662103178336" />
-    <state width="1237" height="111" key="GridCell.Tab.2.left" timestamp="1662103178336">
+    <state width="1237" height="399" key="GridCell.Tab.2.center/0.0.1280.770@0.0.1280.770" timestamp="1662432508462" />
+    <state width="1237" height="399" key="GridCell.Tab.2.left" timestamp="1662432508461">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="111" key="GridCell.Tab.2.left/0.0.1280.770@0.0.1280.770" timestamp="1662103178336" />
-    <state width="1237" height="111" key="GridCell.Tab.2.right" timestamp="1662103178336">
+    <state width="1237" height="399" key="GridCell.Tab.2.left/0.0.1280.770@0.0.1280.770" timestamp="1662432508461" />
+    <state width="1237" height="399" key="GridCell.Tab.2.right" timestamp="1662432508462">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state width="1237" height="111" key="GridCell.Tab.2.right/0.0.1280.770@0.0.1280.770" timestamp="1662103178336" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1661478720766">
+    <state width="1237" height="399" key="GridCell.Tab.2.right/0.0.1280.770@0.0.1280.770" timestamp="1662432508462" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1662386861098">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.770@0.0.1280.770" timestamp="1661478720766" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.770@0.0.1280.770" timestamp="1662386861098" />
     <state x="336" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1661430577822">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="336" y="214" key="com.intellij.ide.util.TipDialog/0.0.1280.770@0.0.1280.770" timestamp="1661430577822" />
-    <state x="331" y="139" width="616" height="490" key="find.popup" timestamp="1662023674290">
+    <state x="331" y="139" width="620" height="490" key="find.popup" timestamp="1662433521741">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
-    <state x="331" y="139" width="616" height="490" key="find.popup/0.0.1280.770@0.0.1280.770" timestamp="1662023674290" />
+    <state x="331" y="139" width="620" height="490" key="find.popup/0.0.1280.770@0.0.1280.770" timestamp="1662433521741" />
     <state x="6" y="90" key="new project wizard" timestamp="1662014899612">
       <screen x="0" y="0" width="1280" height="770" />
     </state>
     <state x="6" y="90" key="new project wizard/0.0.1280.770@0.0.1280.770" timestamp="1662014899612" />
+    <state x="305" y="94" width="672" height="678" key="search.everywhere.popup" timestamp="1662434398728">
+      <screen x="0" y="0" width="1280" height="770" />
+    </state>
+    <state x="305" y="94" width="672" height="678" key="search.everywhere.popup/0.0.1280.770@0.0.1280.770" timestamp="1662434398728" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/a-service/src/main/java/com/corn/aservice/controller/AserviceController.java</url>
-          <line>51</line>
+          <line>59</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-lib/src/main/java/com/corn/common/util/RsaUtils.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-lib/src/main/java/com/corn/common/util/RsaUtils.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/a-service/src/main/java/com/corn/aservice/controller/AserviceController.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

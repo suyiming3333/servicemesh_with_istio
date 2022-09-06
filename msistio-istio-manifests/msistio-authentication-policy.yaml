@@ -1,0 +1,37 @@
+apiVersion: security.istio.io/v1beta1
+kind: PeerAuthentication
+metadata:
+  name: authentication-mtls
+  namespace: msistio
+spec:
+  mtls:
+    mode: STRICT
+---
+apiVersion: security.istio.io/v1beta1
+kind: RequestAuthentication
+metadata:
+  name: authentication-jwt-token
+  namespace: msistio
+spec:
+  jwtRules:
+    - issuer: "suyiming3333@gmail.com"
+      # Envoy默认只认“Bearer”作为JWT前缀，之前其他地方用的都是小写，这里专门兼容一下
+      ##如果带了bearer 开头的Authorization，则进入改jwt校验
+      fromHeaders:
+        - name: Authorization
+          prefix: "bearer "
+      # 在rsa-key目录下放了用来生成这个JWKS的证书，最初是用java keytool生成的jks格式，一般转jwks都是用pkcs12或者pem格式，为方便使用也一起附带了
+      # 通过publickey生成的key
+      jwks: |
+        {
+            "keys": [
+                {
+                    "e": "AQAB",
+                    "kid": "msistio-jwt-kid",
+                    "kty": "RSA",
+                    "n": "AJRNEsOI-KxpZ_6hVbKCb5PuDoDGF-vNaexRWotithsMPDNrYIp-HFGTQ78HUDQQAImVuEZ14XT_9Nf5_QaZIC8w0THbIBnLywxGcuMPGmZjX0U7RyPch7xQ3rAikqrp1YFemQ-_b4QTU5C-Il8Zuz6uSDL0OlNyz-ZwSZcg6yaH"
+                }
+            ]
+        }
+      ##转发 Authorization 请求头(服务内部调用的时候也会带上token)
+      forwardOriginalToken: true

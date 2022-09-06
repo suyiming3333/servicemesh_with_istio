@@ -1,13 +1,21 @@
 package com.corn.aservice.controller;
 
 import com.corn.aservice.feign.BserviceFeignClient;
+import com.corn.security.model.AuthenticAccount;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.security.RolesAllowed;
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -25,7 +33,7 @@ public class AserviceController {
     @Autowired
     private BserviceFeignClient bserviceFeignClient;
 
-    @Value("${service-b}")
+    //@Value("${service-b}")
     private String serviceUrl;
 
 
@@ -42,7 +50,7 @@ public class AserviceController {
         return bserviceFeignClient.invokeB();
     }
 
-    @Value("${javahome}")
+    //@Value("${javahome}")
     private String javahome;
 
 
@@ -56,5 +64,22 @@ public class AserviceController {
     @GetMapping("/health")
     public String health() {
         return "success";
+    }
+
+    //@RolesAllowed("ROLE_USER")
+    @RequestMapping("/who")
+    public String who(){
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        OAuth2Authentication user = (OAuth2Authentication)authentication;
+        Authentication userAuthentication = user.getUserAuthentication();
+        UsernamePasswordAuthenticationToken principal = (UsernamePasswordAuthenticationToken)userAuthentication;
+        Collection<GrantedAuthority> authorities = principal.getAuthorities();
+        AuthenticAccount account = (AuthenticAccount) principal.getPrincipal();
+        StringBuffer sb = new StringBuffer();
+        authorities.stream().forEach(v->{
+            sb.append(v);
+            sb.append(",");
+        });
+        return account.getUsername()+""+sb.toString();
     }
 }

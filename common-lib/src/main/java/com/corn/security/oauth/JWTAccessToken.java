@@ -66,6 +66,7 @@ public class JWTAccessToken extends JwtAccessTokenConverter {
             payLoad.put("username", user.getName());
             payLoad.put("authorities", authorities);
             payLoad.put("iss", "suyiming3333@gmail.com");
+            payLoad.put("sub", "corn");
             ((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(payLoad);
         }
         return super.enhance(accessToken, authentication);

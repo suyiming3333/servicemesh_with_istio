@@ -1,0 +1,16 @@
+apiVersion: security.istio.io/v1beta1
+kind: AuthorizationPolicy
+metadata:
+  name: authorization-request
+  namespace: msistio
+spec:
+  action: ALLOW
+  rules:
+    - from:
+        - source:
+            namespaces: ["istio-system"]
+    - from:
+        - source:
+            requestPrincipals: ["suyiming3333@gmail.com/corn"]
+            ##需要开放istio-system空间的访问;否则无法刷新配置
+            namespaces: ["msistio","istio-system"]

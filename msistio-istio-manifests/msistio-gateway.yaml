@@ -12,8 +12,9 @@ spec:
         number: 8080
         name: http
         protocol: HTTP
+      ##配置通过域名访问(本地环境需要配置hosts)
       hosts:
-        - "*"
+        - "gateway.corn.com"
 ---
 ##网关绑定虚拟服务
 apiVersion: networking.istio.io/v1alpha3
@@ -23,7 +24,7 @@ metadata:
   namespace: msistio
 spec:
   hosts:
-    - "*"
+    - "gateway.corn.com"
   ##msistio-gateway,且满足match条件的，路由到对应的规则
   gateways:
     - msistio-gateway

@@ -14,6 +14,7 @@ metadata:
   namespace: msistio
 spec:
   jwtRules:
+    ##如果如jwt中的iss不一致会报错：Jwt issuer is not configured
     - issuer: "suyiming3333@gmail.com"
       # Envoy默认只认“Bearer”作为JWT前缀，之前其他地方用的都是小写，这里专门兼容一下
       ##如果带了bearer 开头的Authorization，则进入改jwt校验

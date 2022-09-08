@@ -11,6 +11,7 @@ spec:
             namespaces: ["istio-system"]
     - from:
         - source:
+            ##验证jwt issuser/sub组成的验证
             requestPrincipals: ["suyiming3333@gmail.com/corn"]
             ##需要开放istio-system空间的访问;否则无法刷新配置
             namespaces: ["msistio","istio-system"]

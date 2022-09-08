@@ -32,7 +32,7 @@ spec:
     - match:
         - uri:
             ##满足/msistio/a开头的，按照改规则路由
-            prefix: /msistio/a
+            prefix: /msistio/a/
       ##rewrite:例如访问http://192.168.16.141:30645/msistio/b/invoke，会改写成a-service/invoke
       rewrite:
         uri: /
@@ -43,11 +43,22 @@ spec:
               number: 8080
     - match:
         - uri:
-            prefix: /msistio/b
+            prefix: /msistio/b/
       rewrite:
         uri: /
       route:
         - destination:
             host: b-service
+            port:
+              number: 8080
+    - match:
+        - uri:
+            prefix: /msistio/o/
+      rewrite:
+        uri: /
+      route:
+        #destination-rule
+        - destination:
+            host: auth-service
             port:
               number: 8080

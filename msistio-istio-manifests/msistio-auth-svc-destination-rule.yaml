@@ -1,0 +1,8 @@
+##声明路由规则(然后才能配置gateway)
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: auth-service
+  namespace: msistio
+spec:
+  host: auth-service
